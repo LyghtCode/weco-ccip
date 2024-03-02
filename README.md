@@ -1,4 +1,4 @@
-## Written by [Lyghtcode](https://github.com/LyghtCode) for [Weset](https://weset.io) & Chainlink
+## Written by [Lyghtcode](https://github.com/LyghtCode) for [Weset](https://weset.io) & [Chainlink](https://chain.link/)
 
 
 ## Building the project
