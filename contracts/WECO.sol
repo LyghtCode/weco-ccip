@@ -10,6 +10,10 @@ import {IERC165} from "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-so
 import {IERC20} from "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.0/contracts/token/ERC20/IERC20.sol";
 import {ERC20Burnable} from "@chainlink/contracts-ccip/src/v0.8/vendor/openzeppelin-solidity/v4.8.0/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
+/// @dev Written by Lyghtcode for Weset. This contracts allows the existing $WECO token to become a multichain token using Chainlinks CCIP
+/// infrastructure. This contract will be deployed on various destination chains and needs to be allowlisted & connected to Chainlink TokenPool
+/// contracts on each destination chain.
+
 /// @notice A basic ERC677 compatible token contract with burn and minting roles.
 /// @dev The total supply can be limited during deployment.
 contract WECO is IBurnMintERC20, ERC677, IERC165, ERC20Burnable, OwnerIsCreator {
